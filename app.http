@@ -1,0 +1,20 @@
+
+GET http://localhost:1558/players/
+
+###
+GET http://localhost:1558/players/:playerId/
+###
+POST http://localhost:1558/players/
+Content-type: application/json
+
+
+{
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
+###
+PUT http://localhost:1558/players/:playerId/
+Content-type: application/json
+###
+DELETE http://localhost:1558/players/:playerId/
